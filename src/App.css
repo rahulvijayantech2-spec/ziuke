@@ -1,0 +1,24 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f8f9fa; color: #333; line-height: 1.6; }
+.App { display: flex; flex-direction: column; min-height: 100vh; }
+main { flex: 1; }
+
+.site-header { display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; background-color: #20232a; color: white; }
+.logo { font-size: 1.3rem; font-weight: bold; color: #61dafb; }
+.nav-links a { color: white; margin-left: 25px; text-decoration: none; font-weight: 500; }
+.nav-links a:hover { color: #61dafb; }
+
+.site-footer { text-align: center; padding: 1.5rem; background-color: #20232a; color: white; margin-top: auto; font-size: 0.9rem; }
+.site-footer p { margin: 5px 0; }
+.site-footer a { color: #61dafb; text-decoration: none; }
+
+.btn { padding: 10px 22px; background-color: #20232a; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 1rem; font-weight: 600; }
+.btn:hover { background-color: #61dafb; color: #20232a; }
+
+.contact-form { display: flex; flex-direction: column; gap: 15px; max-width: 500px; margin: 0 auto; background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+.form-group { display: flex; flex-direction: column; text-align: left; }
+.form-group label { margin-bottom: 5px; font-weight: 600; font-size: 0.9rem; }
+.form-group input, .form-group textarea { padding: 10px; border: 1px solid #ccc; border-radius: 4px; font-size: 1rem; }
+.status-msg { margin-top: 10px; font-weight: bold; text-align: center; }
+.status-msg.error { color: #d9534f; }
+.status-msg.success { color: #5cb85c; }
